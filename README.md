@@ -1,4 +1,4 @@
-# xk6-httptls
+# xk6-tlscert
 
 A very simple experiment around TLS certificates.
 
