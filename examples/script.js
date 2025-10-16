@@ -1,15 +1,15 @@
-import httptls from "k6/x/httptls";
+import tlscert from "k6/x/tlscert";
 
 export const options = {
   iterations: 1,
 };
 
 export default async function () {
-  const v = await httptls.isExpired("github.com");
+  const v = await tlscert.isExpired("github.com");
   console.log(`expired: ${v}`);
   // expired: false
 
-  const certs = await httptls.chain("github.com");
+  const certs = await tlscert.chain("github.com");
   console.log(JSON.stringify(certs, "", "  "));
 
   // [

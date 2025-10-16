@@ -1,4 +1,4 @@
-package httptls
+package tlscert
 
 import (
 	"crypto/tls"

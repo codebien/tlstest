@@ -1,7 +1,7 @@
-package httptls
+package tlscert
 
 import "go.k6.io/k6/js/modules"
 
 func init() {
-	modules.Register("k6/x/httptls", New())
+	modules.Register("k6/x/tlscert", New())
 }
