@@ -3,6 +3,6 @@
 A very simple experiment around TLS certificates.
 
 ```
-xk6 build --with httptls=.
+xk6 build --with tlscert=.
 ```
 
