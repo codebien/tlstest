@@ -1,4 +1,4 @@
-module github.com/grafana/xk6-example
+module httptls
 
 go 1.24.0
 
